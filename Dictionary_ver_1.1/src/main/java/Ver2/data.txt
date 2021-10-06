@@ -1,0 +1,4 @@
+hello    xin chào
+bye    tạm biệt
+good    tốt
+bad    xấu
