@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="587.0" prefWidth="938.0" stylesheets="Style.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dictionaryapplication.Controller">
+   <children>
+      <Region layoutY="22.0" prefHeight="565.0" prefWidth="198.0" style="-fx-background-color: #374850;" />
+      <Region prefHeight="39.0" prefWidth="938.0" style="-fx-background-color: #0f2028;" />
+      <Button fx:id="button8" layoutX="817.0" layoutY="-2.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="39.0" prefWidth="114.0" style="-fx-background-color: #0f2028; -fx-font-size: 18;" styleClass="btnItem" stylesheets="@Style.css" text="Logout" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <Blend />
+         </effect>
+      </Button>
+      <Region layoutX="198.0" layoutY="39.0" prefHeight="548.0" prefWidth="740.0" style="-fx-background-color: #B0C4DE;" />
+      <VBox layoutY="183.0" prefHeight="399.0" prefWidth="198.0" style="-fx-background-color: #374850;" styleClass="menuItem" stylesheets="@Style.css">
+         <children>
+            <Button fx:id="button1" contentDisplay="TOP" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="58.0" prefWidth="198.0" style="-fx-background-color: #374850; -fx-alignment: center-right; -fx-font-size: 20;" styleClass="sidebarItem" stylesheets="@Style.css" text="Translate" textFill="WHITE" textOverrun="CLIP">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <effect>
+                  <Blend />
+               </effect>
+               <font>
+                  <Font name="Calibri" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="button7" contentDisplay="TOP" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="58.0" prefWidth="198.0" style="-fx-background-color: #374850; -fx-alignment: center-right; -fx-font-size: 20;" styleClass="sidebarItem" stylesheets="@Style.css" text="Search Data" textFill="WHITE" textOverrun="CLIP">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <effect>
+                  <Blend />
+               </effect>
+               <font>
+                  <Font name="Calibri" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="button2" contentDisplay="TOP" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="58.0" prefWidth="198.0" style="-fx-background-color: #374850; -fx-alignment: center-right; -fx-font-size: 20;" styleClass="sidebarItem" stylesheets="@Style.css" text="Bookmark" textFill="WHITE" textOverrun="CLIP">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <effect>
+                  <Blend />
+               </effect>
+               <font>
+                  <Font name="Calibri" size="12.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="58.0" prefWidth="198.0" style="-fx-background-color: #B0C4DE; -fx-alignment: center-right; -fx-font-size: 19; -fx-background-radius: 10;" styleClass="sidebarItem2" stylesheets="@Style.css" text="Add words">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <effect>
+                  <Blend />
+               </effect>
+            </Button>
+            <Button fx:id="button4" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="58.0" prefWidth="198.0" style="-fx-background-color: #374850; -fx-alignment: center-right; -fx-font-size: 20;" styleClass="sidebarItem" stylesheets="@Style.css" text="Delete Word" textFill="WHITE">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <effect>
+                  <Blend />
+               </effect>
+            </Button>
+            <Button fx:id="button5" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="58.0" prefWidth="198.0" style="-fx-background-color: #374850; -fx-alignment: center-right; -fx-font-size: 20;" styleClass="sidebarItem" stylesheets="@Style.css" text="Edit Word" textFill="WHITE">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <effect>
+                  <Blend />
+               </effect>
+            </Button>
+            <Button fx:id="button6" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="58.0" prefWidth="198.0" style="-fx-background-color: #374850; -fx-alignment: center-right; -fx-font-size: 22;" styleClass="sidebarItem" stylesheets="@Style.css" text="Exit" textFill="WHITE">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <effect>
+                  <Blend />
+               </effect>
+            </Button>
+         </children>
+      </VBox>
+      <Circle fill="WHITE" layoutX="99.0" layoutY="120.0" radius="33.0" stroke="BLACK" strokeType="INSIDE" />
+      <Text fill="WHITE" layoutX="26.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dictionary App">
+         <font>
+            <Font name="Arial Bold" size="18.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="93.0" fitWidth="44.0" layoutX="77.0" layoutY="98.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../image/default.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="39.0" fitWidth="44.0" layoutX="7.0" layoutY="191.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../image/translator.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="44.0" fitWidth="56.0" layoutX="4.0" layoutY="249.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../image/search.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="44.0" fitWidth="56.0" layoutX="4.0" layoutY="305.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../image/bookmark.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="44.0" fitWidth="56.0" layoutX="4.0" layoutY="360.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../image/add2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="44.0" fitWidth="56.0" layoutY="415.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../image/delete.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="44.0" fitWidth="56.0" layoutX="8.0" layoutY="530.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../image/exit.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="770.0" layoutY="411.0" mnemonicParsing="false" onAction="#addNewWord" prefHeight="120.0" prefWidth="66.0" style="-fx-background-color: #374850; -fx-alignment: bottom-center; -fx-background-radius: 15;" styleClass="btnItem" stylesheets="@Style.css" text="SAVE" textAlignment="JUSTIFY" textFill="WHITE" textOverrun="CLIP">
+         <font>
+            <Font name="Calibri" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <Blend />
+         </effect>
+      </Button>
+      <TextArea fx:id="vnWord" layoutX="224.0" layoutY="304.0" prefHeight="238.0" prefWidth="367.0" style="-fx-control-inner-background: #778899;">
+         <font>
+            <Font name="Comic Sans MS" size="22.0" />
+         </font>
+      </TextArea>
+      <TextArea fx:id="enWord" layoutX="224.0" layoutY="98.0" prefHeight="131.0" prefWidth="612.0" style="-fx-control-inner-background: #778899;">
+         <font>
+            <Font name="Comic Sans MS" size="22.0" />
+         </font>
+      </TextArea>
+      <ImageView fitHeight="58.0" fitWidth="80.0" layoutX="224.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../image/flagenglish.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="66.0" fitWidth="58.0" layoutX="225.0" layoutY="250.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../image/flagvietnamese.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="58.0" fitWidth="44.0" layoutX="781.0" layoutY="417.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../image/save.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="44.0" fitWidth="56.0" layoutX="8.0" layoutY="475.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../image/edit.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

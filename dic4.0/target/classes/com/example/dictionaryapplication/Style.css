@@ -1,0 +1,27 @@
+.sidebarItem:hover{
+    -fx-border-color: WHITE;
+    -fx-border-width: 0px 0px 0px 3px;
+    -fx-background: transparent; outline: none;
+     -fx-position: relative;
+          -fx-padding: 10px 30px;
+          -fx-overflow: hidden;
+}
+.sidebarItem2:hover{
+    -fx-border-color: WHITE;
+    -fx-border-width: 0px 0px 0px 3px;
+    -fx-background: transparent; outline: none;
+     -fx-position: relative;
+          -fx-overflow: hidden;
+}
+.border{
+-fx-border-color: #00bfff;
+-fx-border-width: 1.5;
+}
+.border-left{
+-fx-border-color: #00bfff;
+-fx-border-width: 0 1.5 0 0;
+}
+.border-rigth{
+-fx-border-color: #00bfff;
+-fx-border-width: 1.5 0 0 0;
+}
